@@ -1,0 +1,45 @@
+{
+  "name": "macos-computer-use-mcp",
+  "version": "1.0.0",
+  "description": "Standalone MCP server providing native macOS computer control for any MCP-compatible agent",
+  "main": "dist/cli.js",
+  "bin": {
+    "computer-use-mcp": "./dist/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "start": "node dist/cli.js",
+    "dev": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "mcp",
+    "computer-use",
+    "claude",
+    "anthropic",
+    "automation",
+    "macos"
+  ],
+  "author": "Anthropic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zooeyii/macos-computer-use-mcp.git"
+  }
+}
