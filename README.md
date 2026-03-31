@@ -2,6 +2,16 @@
 
 A standalone MCP server providing native macOS computer control — mouse, keyboard, screenshots, and app management — for any MCP-compatible agent.
 
+## Demo
+
+
+https://github.com/user-attachments/assets/130bee07-1f87-4291-8483-fc47ec51e493
+
+
+
+
+> **Screenshot & Click in action** — The MCP server grants app access, captures a 2560×1664 native screenshot, clicks on-screen elements, and opens URLs — all orchestrated through standard MCP tool calls from a coding agent.
+
 ## Compatibility
 
 Works with any client that supports the [Model Context Protocol](https://modelcontextprotocol.io/), including:
